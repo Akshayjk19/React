@@ -1,0 +1,15 @@
+.card{
+    /* border: 1px solid black; */
+    width: 20%;
+    margin-top: 10px;
+    background-color: cadetblue;
+    justify-content: center;
+    
+} 
+.card button{
+    border-radius: 15px;
+    border: 1px solid grey;
+    font-family: monospace;
+    background-color: rgb(205, 137, 137);
+    text-align: center;
+}

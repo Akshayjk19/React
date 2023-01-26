@@ -1,0 +1,9 @@
+.wl{
+    text-align: center;
+    color: rgb(40, 49, 46);
+    font-size: 30px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    /* background-image: url('arsenal.jpg'); */
+    background-color: aquamarine;
+}

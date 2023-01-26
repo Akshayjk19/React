@@ -1,0 +1,49 @@
+.links{
+    color:white;
+    font-weight:bolder;
+    font-size:15px;
+    
+}
+#navbarScrollingDropdown{
+    color:white;
+    font-weight:bolder;
+    font-size:15px;
+    padding-left: 49px;
+    padding-right: 59px;
+}
+.ic{
+    height: 28px;
+    width: 21px;
+}
+.button{
+    border-radius:0;
+    margin-left:60px;
+    width:120px;
+    color:rgb(53, 94, 231);
+    font-weight:bold;
+}
+.second-bar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(172, 169, 169);
+    height: 111px;
+    padding-top: 10px;
+    padding-left: 172px;
+    padding-right: 172px;
+}
+.g-link{
+    padding-left: 50px;
+}
+.g-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: system-ui;
+
+}
+.crd{
+    display: flex;
+    
+    border: 2px solid rgb(218, 218, 218);
+    padding-top: 10px;
+}

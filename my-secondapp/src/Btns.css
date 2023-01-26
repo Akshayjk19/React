@@ -1,0 +1,26 @@
+.clrcng{
+    text-align:center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+button{
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+}
+.red{
+
+   background-color:  red;
+}
+.blue{
+
+    background-color: blue;
+}
+.green{
+
+    background-color: green;
+}
+.yellow{
+
+    background-color: yellow;
+}
