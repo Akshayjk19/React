@@ -2,16 +2,17 @@ import React, { useState } from 'react'
 import { Userstate } from './Context/UserProvider'
 
 function Sprd() {
-  // const {name,words,nw}=Userstate()
-//     const [wrd, setwrd] = useState({id:201,name:"good"} )  
-// const change=()=>{
-//     setwrd(nw=>{return{...nw,name:"new"}})
-// }
+  const {wrod,setwrod}=Userstate()
+  
+const change=()=>{
+    setwrod(nw=>{return{...nw,name:"Zanin"}})
+}
 
   return (
     
     <div>
-  
+  <h1>{wrod.id} {wrod.name}</h1>
+  <button onClick={change}>Change</button>
     
     
     </div>

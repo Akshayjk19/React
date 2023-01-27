@@ -3,13 +3,12 @@ const UserContext=createContext()
 
 const UserProvider = ({children}) => {
    
-    const [wrod, setwrod] = useState({id:201,name:"Akshay",img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQluHdBIJ90hxaJRYxuYCLF3NjZ7ivSD3wxwie-Xsz2LvsnzPuJTbWxr-DphodBfJ34g&usqp=CAU"})
-
+    const [wrod, setwrod] = useState({id:201,name:"Akshay"})
 
   return ( 
        
       <div>
-    <UserContext.Provider value={{wrod}}>
+    <UserContext.Provider value={{wrod,setwrod}}>
     {children}
     </UserContext.Provider>
     </div>

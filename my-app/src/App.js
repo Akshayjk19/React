@@ -10,8 +10,13 @@ import Useeft from './Useeft';
 function App() {
   return (
     <div className="App">
-
-      <Useeft/>
+    
+    <BrowserRouter>
+    <Routerdom/>
+    <Routes>
+    <Route path='/Objt' element={<Objt/>}/>
+    </Routes>
+    </BrowserRouter>
     </div>
   );
 }

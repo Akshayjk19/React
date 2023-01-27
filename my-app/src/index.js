@@ -9,6 +9,7 @@ import Sprd from './Sprd';
 import UserProvider from './Context/UserProvider';
 import Arryaaa from './Arryaaa';
 import Imagepo from './Imagepo';
+import Txtcolorchange from './Txtcolorchange';
 
 
 
@@ -19,9 +20,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <UserProvider>
   <React.StrictMode>
- 
-  <Imagepo/>
-  
+
+ <App/>
+  <Sprd/>
+<Txtcolorchange/>
   
   </React.StrictMode>
   </UserProvider>
