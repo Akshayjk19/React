@@ -10,6 +10,9 @@ import UserProvider from './Context/UserProvider';
 import Arryaaa from './Arryaaa';
 import Imagepo from './Imagepo';
 import Txtcolorchange from './Txtcolorchange';
+import Useeft from './Useeft';
+import Dcrmentalrt from './Dcrmentalrt';
+import Tablemap from './Tablemap';
 
 
 
@@ -20,10 +23,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <UserProvider>
   <React.StrictMode>
-
+  
  <App/>
+ <Tablemap/>
+<Dcrmentalrt/>
   <Sprd/>
 <Txtcolorchange/>
+<Useeft/>
+
   
   </React.StrictMode>
   </UserProvider>

@@ -4,7 +4,7 @@ import './Btns.css'
 function Btns() {
  
     const [colr, setcolr] = useState("black")
-    use
+    
   return (
     <div>
     <div className='clrcng'>
