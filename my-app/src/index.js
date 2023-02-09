@@ -13,25 +13,20 @@ import Txtcolorchange from './Txtcolorchange';
 import Useeft from './Useeft';
 import Dcrmentalrt from './Dcrmentalrt';
 import Tablemap from './Tablemap';
-
-
-
+import Props from './Props';
+import Prop2 from './Prop2';
+import Routerdom from './Routerdom';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <UserProvider>
+<UserProvider>
   <React.StrictMode>
-  
+  <Routerdom/>
  <App/>
- <Tablemap/>
-<Dcrmentalrt/>
-  <Sprd/>
-<Txtcolorchange/>
-<Useeft/>
 
-  
+
   </React.StrictMode>
   </UserProvider>
 );
