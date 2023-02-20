@@ -14,24 +14,30 @@ import Uzeffect from './Uzeffect';
 import Dataadd from './Dataadd';
 import Props3 from './Props3';
 import Apis from './Apis';
+import Home from './Home';
+import Login from './Login';
+import Signup from './Signup';
+import Main from './Main';
 
 function App() {
   return (
     <div className="App">
+    <Main/>
+    <Login/>
+
+
     
     <BrowserRouter>
    
     <Routes>
     <Route path='/Objt' element={<Objt/>}/>
+    
     </Routes>
     </BrowserRouter>
-    <Apis/>
-    <Dataadd/>
-    <Props3/>
     
     
-   <Objct/>
-   <Sprad/>
+    
+  
   
    
     

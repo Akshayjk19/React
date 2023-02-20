@@ -16,19 +16,22 @@ import Tablemap from './Tablemap';
 import Props from './Props';
 import Prop2 from './Prop2';
 import Routerdom from './Routerdom';
+import NewContext from './NewContext';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<UserProvider>
-  <React.StrictMode>
-  <Routerdom/>
- <App/>
 
+  <React.StrictMode>
+
+ 
+  <NewContext>
+ <App/>
+ </NewContext>
 
   </React.StrictMode>
-  </UserProvider>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function
